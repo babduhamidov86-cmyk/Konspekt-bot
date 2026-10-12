@@ -14,7 +14,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 
 # Telegram Bot Tokeningizni quyidagi o'zgaruvchiga yozing yoki Environment Variable (Railway) orqali bering
-BOT_TOKEN = os.getenv("TOKEN", "8735948987:AAFfSAMxlbYuz2zvgNgeJG2CogIzNTA18lk")
+BOT_TOKEN = os.getenv("TOKEN", "8677645400:AAF9QNkolKBHUc2rbCqxZpruAcJyXRn3TvY")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
